@@ -5,7 +5,7 @@ pub struct Example {
     a: bool,
 }
 
-pub fn some_example() -> Example {
+pub const fn some_example() -> Example {
     Example {a: false}
 }
 
